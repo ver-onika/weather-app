@@ -1,0 +1,117 @@
+body {
+  background-image: url("../images/lowpoly_background_5.png");
+  background-size: cover;
+  color: #00313d;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 30px;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+h4 {
+  display: inline-block;
+  font-family: "Pacifico", cursive;
+  margin: 0;
+}
+
+h4.current-temperature {
+  font-size: 2.5rem;
+  margin: 10px 0px;
+}
+
+p#current-date-time {
+  font-style: italic;
+}
+
+.main-header {
+  font-size: 2rem;
+  font-family: "Pacifico", cursive;
+  text-shadow: 3px 2px 4px rgba(0, 159, 199, 0.9),
+    -3px -2px 5px rgba(235, 251, 255, 0.9);
+}
+
+.container {
+  max-width: 800px;
+  width: 80%;
+  margin: 20px auto 0px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.weather-container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  background-color: rgba(235, 251, 255, 0.4);
+  box-shadow: 0px 0px 20px 20px rgba(235, 251, 255, 0.4);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.weather-container:hover {
+  background-color: rgba(235, 251, 255, 0.7);
+  box-shadow: 0px 0px 25px 25px rgba(235, 251, 255, 0.7);
+}
+
+#city-search {
+  height: 100%;
+  color: #495057;
+  background-color: rgba(235, 251, 255, 0.4);
+  border: 1px solid #009fc7;
+}
+
+.btn {
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #009fc7;
+  border-color: #009fc7;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #009fc7;
+  border-color: #009fc7;
+}
+
+.row.current-forecast {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#celsius {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  margin: 0;
+  text-decoration: none;
+  color: rgba(0, 49, 61, 0.9);
+  display: inline;
+}
+
+.current-weather {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.footer {
+  font-size: 0.5rem;
+  margin: 0;
+}
