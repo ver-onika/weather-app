@@ -55,8 +55,7 @@ p#current-date-time {
 }
 
 .weather-container {
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin: 40px 0px;
   padding: 10px;
   border: 1px solid transparent;
   border-radius: 0.5rem;
@@ -112,6 +111,13 @@ p#current-date-time {
 }
 
 .footer {
-  font-size: 0.5rem;
+  font-size: 1rem;
   margin: 0;
+  opacity: 70%;
+}
+
+.github-icon {
+  color: #00313d;
+  font-size: 1.5rem;
+  opacity: 70%;
 }
